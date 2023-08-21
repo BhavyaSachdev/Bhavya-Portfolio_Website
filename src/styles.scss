@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --light-mode-color :#ffffff;
+    --dark-mode-color: #000000;
+    --bg-graident:linear-gradient(147deg, #000000 0%, #434343 74%)
+}
+*{
+    // background: linear-gradient(315deg, #E85BA6, #2D108B);
+    // background: cyan;
+    margin: 0;
+    padding: 0;
+    color: var(--light-mode-color);
+
+}
+body{
+    min-height: 100vh;
+    // background: linear-gradient(360deg, #E85BA6, #2D108B);
+    background-color: var(--dark-mode-color);
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}

@@ -1,0 +1,32 @@
+.glassBg{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    border-radius: 0 0 10px 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.navbar{
+    background: hsl(0 0 100% / 0.3);
+    backdrop-filter: blur(10px);
+
+}
+
+.hamburger{
+    background-color: transparent;
+    border: 0;
+    color: var(--light-mode-color);
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+.logo-color{ color: #dee2e6; }
+.navbar-nav{
+    .nav-link{
+        color: var(--light-mode-color);
+    }
+    .nav-link:hover{
+        color: aqua;
+    }
+    .active-link{
+        color: aqua
+    }
+}
